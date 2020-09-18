@@ -1,0 +1,19 @@
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\bin\Debug\duAnGameCoTuong_theHe2.exe.config
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\bin\Debug\duAnGameCoTuong_theHe2.exe
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\bin\Debug\duAnGameCoTuong_theHe2.pdb
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.csprojResolveAssemblyReference.cache
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.Properties.Resources.resources
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.csproj.GenerateResource.Cache
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.exe
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.pdb
+D:\Project C# (form)\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.frmGame.resources
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\bin\Debug\duAnGameCoTuong_theHe2.exe.config
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\bin\Debug\duAnGameCoTuong_theHe2.exe
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\bin\Debug\duAnGameCoTuong_theHe2.pdb
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.csprojAssemblyReference.cache
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.frmGame.resources
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.Properties.Resources.resources
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.csproj.GenerateResource.cache
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.csproj.CoreCompileInputs.cache
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.exe
+D:\Download\duAnGameCoTuong_theHe2\duAnGameCoTuong_theHe2\obj\Debug\duAnGameCoTuong_theHe2.pdb

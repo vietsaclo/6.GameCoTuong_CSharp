@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0296A837-08D3-44AC-BDFB-59815FDD6145}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>duAnGameCoTuong_theHe2</RootNamespace>
+    <AssemblyName>duAnGameCoTuong_theHe2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGame.Designer.cs">
+      <DependentUpon>frmGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Diem2D.cs" />
+    <Compile Include="Models\DongHo.cs" />
+    <Compile Include="Models\NguoiChoi.cs" />
+    <Compile Include="Models\NguoiCho_DETAIL\NguoiChoiA.cs" />
+    <Compile Include="Models\NguoiCho_DETAIL\NguoiChoiB.cs" />
+    <Compile Include="Models\QuanCo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\QuanCo_DETAIL\QuanBo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\QuanCo_DETAIL\QuanMa.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\QuanCo_DETAIL\QuanPhao.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\QuanCo_DETAIL\QuanSi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\QuanCo_DETAIL\QuanTot.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\QuanCo_DETAIL\QuanTuong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\QuanCo_DETAIL\QuanXe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\_Modules.cs" />
+    <Compile Include="Models\TenQuanCo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmGame.resx">
+      <DependentUpon>frmGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG_TABLE_495_550.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMG_CHINESE_CHESS\BG_DUONG_DI.png" />
+    <Content Include="IMG_CHINESE_CHESS\BG_TABLE.png" />
+    <Content Include="IMG_CHINESE_CHESS\BG_TABLE_495_550.jpg" />
+    <Content Include="IMG_CHINESE_CHESS\BG_TABLE_495_550.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_BO_DEN.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_BO_DEN_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_BO_DO.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_BO_DO_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_MA_DEN.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_MA_DEN_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_MA_DO.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_MA_DO_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_PHAO_DEN.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_PHAO_DEN_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_PHAO_DO.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_PHAO_DO_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_SI_DEN.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_SI_DEN_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_SI_DO.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_SI_DO_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_TOT_DEN.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_TOT_DEN_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_TOT_DO.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_TOT_DO_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_TUONG_DEN.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_TUONG_DEN_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_TUONG_DO.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_TUONG_DO_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_XE_DEN.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_XE_DEN_BI_CHIEU.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_XE_DO.png" />
+    <Content Include="IMG_CHINESE_CHESS\QUAN_XE_DO_BI_CHIEU.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
